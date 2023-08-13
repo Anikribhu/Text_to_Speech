@@ -3,7 +3,7 @@ const results=document.getElementById("result");
 const speechRecognition = window.speechRecognition || window.webkitSpeechRecognition;  
  const recognition = new speechRecognition();  
  recognition.onstart = function(){  
-   console.log("you can speek now");  
+   console.log("you can speak now");  
  }  
 
  recognition.onresult = function(event){  
